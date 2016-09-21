@@ -1,0 +1,82 @@
+<!--initializing Html5 -->
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <!--- adding Title to webpage -->
+       <title>
+         gradient
+      </title>
+       <!-- using Css-->
+      <style>
+          /*using gradient(linear)-->*/
+         .gradientlinear{
+         background: linear-gradient(to right, red,green);
+         box-shadow: 10px 10px 5px #888888;
+         border:1px solid #ccc;
+         height:100px;
+         width:100px;
+         margin:inherit;
+         border-radius: 20px;
+         display: inline-block ;
+         }
+          /*Alligning text center*/
+         .gradientlinear p{
+         margin-top: 78px;
+         }
+          /*using gradient(radial) for circle shape*/
+         .radialgradient{
+         position: absolute;
+         background: radial-gradient(at top, red, yellow, green);
+         box-shadow: 10px 10px 5px #888888;
+         border:1px solid #ccc;
+         height:100px;
+         width:100px;
+         margin:inherit;
+         border-radius: 20px;
+         display: inline-block;
+         }
+          /*Alligning text center*/
+         .radialgradient p{
+         margin-top: 78px;
+         }
+          /*using gradient(radial) for circle shape*/
+         .radialellipse{
+         position: absolute;
+         background: radial-gradient(ellipse 100px 60px,red, yellow, green);
+         box-shadow: 10px 10px 5px #888888;
+         border:1px solid #ccc;
+         height:100px;
+         width:100px;
+         border-radius: 20px;
+         margin-top: -107px;
+         margin-left: 244px;
+         position: absolute;
+         }
+          /*Alligning text center*/
+         .radialellipse p{
+         margin-top: 78px;
+         }
+      </style>
+   </head>
+   <body>
+       <!--- First DIV gradientlinear-->
+      <div class ="gradientlinear">
+         <center>
+            <p>BOX</p>
+         </center>
+      </div>
+       <!-- second Div Circle-->
+      <div class ="radialgradient">
+         <center>
+            <p>BOX</p>
+         </center>
+      </div>
+       <!-- Third Div For ellipse-->
+      <div class ="radialellipse">
+         <center>
+            <p>BOX</p>
+         </center>
+      </div>
+   </body>
+</html>
